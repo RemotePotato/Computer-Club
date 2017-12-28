@@ -41,7 +41,7 @@ public class Eventmember implements Serializable {
     private Event eventid;
     @JoinColumn(name = "MEMBERID", referencedColumnName = "MEMBERID")
     @ManyToOne
-    private Member1 memberid;
+    private Members memberid;
 
     public Eventmember() {
     }
@@ -66,11 +66,11 @@ public class Eventmember implements Serializable {
         this.eventid = eventid;
     }
 
-    public Member1 getMemberid() {
+    public Members getMemberid() {
         return memberid;
     }
 
-    public void setMemberid(Member1 memberid) {
+    public void setMemberid(Members memberid) {
         this.memberid = memberid;
     }
 

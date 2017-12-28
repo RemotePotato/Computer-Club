@@ -25,23 +25,23 @@ import javax.xml.bind.annotation.XmlTransient;
  * @author StarmanW
  */
 @Entity
-@Table(name = "MEMBER")
+@Table(name = "MEMBERS")
 @XmlRootElement
 @NamedQueries({
-    @NamedQuery(name = "Member1.findAll", query = "SELECT m FROM Member1 m")
-    , @NamedQuery(name = "Member1.findByMemberid", query = "SELECT m FROM Member1 m WHERE m.memberid = :memberid")
-    , @NamedQuery(name = "Member1.findByProgcode", query = "SELECT m FROM Member1 m WHERE m.progcode = :progcode")
-    , @NamedQuery(name = "Member1.findByFirstname", query = "SELECT m FROM Member1 m WHERE m.firstname = :firstname")
-    , @NamedQuery(name = "Member1.findByLastname", query = "SELECT m FROM Member1 m WHERE m.lastname = :lastname")
-    , @NamedQuery(name = "Member1.findByEmail", query = "SELECT m FROM Member1 m WHERE m.email = :email")
-    , @NamedQuery(name = "Member1.findByContactnum", query = "SELECT m FROM Member1 m WHERE m.contactnum = :contactnum")
-    , @NamedQuery(name = "Member1.findByIcnum", query = "SELECT m FROM Member1 m WHERE m.icnum = :icnum")
-    , @NamedQuery(name = "Member1.findByPass", query = "SELECT m FROM Member1 m WHERE m.pass = :pass")
-    , @NamedQuery(name = "Member1.findByGender", query = "SELECT m FROM Member1 m WHERE m.gender = :gender")
-    , @NamedQuery(name = "Member1.findByMemfeestats", query = "SELECT m FROM Member1 m WHERE m.memfeestats = :memfeestats")
-    , @NamedQuery(name = "Member1.findByPosition", query = "SELECT m FROM Member1 m WHERE m.position = :position")
-    , @NamedQuery(name = "Member1.findByAcademicyear", query = "SELECT m FROM Member1 m WHERE m.academicyear = :academicyear")})
-public class Member1 implements Serializable {
+    @NamedQuery(name = "Members.findAll", query = "SELECT m FROM Members m")
+    , @NamedQuery(name = "Members.findByMemberid", query = "SELECT m FROM Members m WHERE m.memberid = :memberid")
+    , @NamedQuery(name = "Members.findByProgcode", query = "SELECT m FROM Members m WHERE m.progcode = :progcode")
+    , @NamedQuery(name = "Members.findByFirstname", query = "SELECT m FROM Members m WHERE m.firstname = :firstname")
+    , @NamedQuery(name = "Members.findByLastname", query = "SELECT m FROM Members m WHERE m.lastname = :lastname")
+    , @NamedQuery(name = "Members.findByEmail", query = "SELECT m FROM Members m WHERE m.email = :email")
+    , @NamedQuery(name = "Members.findByContactnum", query = "SELECT m FROM Members m WHERE m.contactnum = :contactnum")
+    , @NamedQuery(name = "Members.findByIcnum", query = "SELECT m FROM Members m WHERE m.icnum = :icnum")
+    , @NamedQuery(name = "Members.findByPass", query = "SELECT m FROM Members m WHERE m.pass = :pass")
+    , @NamedQuery(name = "Members.findByGender", query = "SELECT m FROM Members m WHERE m.gender = :gender")
+    , @NamedQuery(name = "Members.findByMemfeestats", query = "SELECT m FROM Members m WHERE m.memfeestats = :memfeestats")
+    , @NamedQuery(name = "Members.findByPosition", query = "SELECT m FROM Members m WHERE m.position = :position")
+    , @NamedQuery(name = "Members.findByAcademicyear", query = "SELECT m FROM Members m WHERE m.academicyear = :academicyear")})
+public class Members implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
@@ -107,14 +107,14 @@ public class Member1 implements Serializable {
     @OneToMany(mappedBy = "memberid")
     private List<Eventmember> eventmemberList;
 
-    public Member1() {
+    public Members() {
     }
 
-    public Member1(String memberid) {
+    public Members(String memberid) {
         this.memberid = memberid;
     }
 
-    public Member1(String memberid, String progcode, String firstname, String lastname, String email, String contactnum, String icnum, String pass, String gender, Boolean memfeestats, int position, String academicyear) {
+    public Members(String memberid, String progcode, String firstname, String lastname, String email, String contactnum, String icnum, String pass, String gender, Boolean memfeestats, int position, String academicyear) {
         this.memberid = memberid;
         this.progcode = progcode;
         this.firstname = firstname;
@@ -244,10 +244,10 @@ public class Member1 implements Serializable {
     @Override
     public boolean equals(Object object) {
         // TODO: Warning - this method won't work in the case the id fields are not set
-        if (!(object instanceof Member1)) {
+        if (!(object instanceof Members)) {
             return false;
         }
-        Member1 other = (Member1) object;
+        Members other = (Members) object;
         if ((this.memberid == null && other.memberid != null) || (this.memberid != null && !this.memberid.equals(other.memberid))) {
             return false;
         }
@@ -256,7 +256,7 @@ public class Member1 implements Serializable {
 
     @Override
     public String toString() {
-        return "entity.Member1[ memberid=" + memberid + " ]";
+        return "entity.Members[ memberid=" + memberid + " ]";
     }
     
 }
