@@ -38,24 +38,24 @@
             <div class="menu-logo">
                 <div class="navbar-brand">
                     <span class="navbar-logo">
-                            <a href="homepage.html">
+                            <a href="homepage.jsp">
                                 <img src="assets/images/logo-1-3508x2480.jpg" title="" media-simple="true" style="height: 4.5rem;">
                             </a>
                         </span>
-                    <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="homepage.html">
+                    <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="homepage.jsp">
                                 COMPUTER CLUB</a></span>
                 </div>
             </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
                     <li class="nav-item dropdown open"><a class="nav-link link text-white dropdown-toggle display-4" aria-expanded="true" data-toggle="dropdown-submenu">REGISTER</a>
-                        <div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="registerMember.html" aria-expanded="false">MEMBER</a><a class="text-white dropdown-item display-4" href="registerEvent.html" aria-expanded="false">EVENT</a><a class="text-white dropdown-item display-4" href="registerCollaborator.html" aria-expanded="false">COLLABORATOR</a></div>
+                        <div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="registerMember.jsp" aria-expanded="false">MEMBER</a><a class="text-white dropdown-item display-4" href="registerEvent.jsp" aria-expanded="false">EVENT</a><a class="text-white dropdown-item display-4" href="registerCollaborator.jsp" aria-expanded="false">COLLABORATOR</a></div>
                     </li>
                     <li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white display-4" data-toggle="dropdown-submenu" aria-expanded="false">MANAGE</a>
-                        <div class="dropdown-menu"><a class="dropdown-item text-white display-4" href="memberList.html">MEMBERS</a><a class="dropdown-item text-white display-4" href="eventList.html">EVENTS</a><a class="dropdown-item text-white display-4" href="collaboratorList.html">COLLABORATORS</a></div>
+                        <div class="dropdown-menu"><a class="dropdown-item text-white display-4" href="memberList.jsp">MEMBERS</a><a class="dropdown-item text-white display-4" href="eventList.jsp">EVENTS</a><a class="dropdown-item text-white display-4" href="collaboratorList.jsp">COLLABORATORS</a></div>
                     </li>
                 </ul>
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="index.html"><span class="mbrib-lock mbr-iconfont mbr-iconfont-btn"></span>
+                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="index.jsp"><span class="mbrib-lock mbr-iconfont mbr-iconfont-btn"></span>
 
                             LOGOUT</a></div>
             </div>
@@ -181,7 +181,7 @@
             <div class="media-container-row content text-white">
                 <div class="col-12 col-md-3">
                     <div class="media-wrap">
-                        <a href="homepage.html"><img src="assets/images/logo-2-3508x2480.jpg" alt="Mobirise" title="" media-simple="true"></a>
+                        <a href="homepage.jsp"><img src="assets/images/logo-2-3508x2480.jpg" alt="Mobirise" title="" media-simple="true"></a>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 mbr-fonts-style display-7">

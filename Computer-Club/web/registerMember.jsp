@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="shortcut icon" href="assets/images/logo-1-3508x2480.jpg" type="image/x-icon">
     <meta name="description" content="Website Creator Description">
-    <title>Register Event</title>
+    <title>Register Member</title>
     <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
     <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
     <link rel="stylesheet" href="assets/tether/tether.min.css">
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/socicon/css/styles.css">
     <link rel="stylesheet" href="assets/dropdown/css/style.css">
     <link rel="stylesheet" href="assets/theme/css/style.css">
+    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
     <link rel="stylesheet" href="assets/css/registerMember.css" type="text/css">
 </head>
@@ -37,37 +38,37 @@
             <div class="menu-logo">
                 <div class="navbar-brand">
                     <span class="navbar-logo">
-                    <a href="homepage.html">
+                    <a href="homepage.jsp">
                          <img src="assets/images/logo-1-3508x2480.jpg" title="" media-simple="true" style="height: 4.5rem;">
                     </a>
                 </span>
-                    <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="homepage.html">
+                    <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="homepage.jsp">
                         COMPUTER CLUB</a></span>
                 </div>
             </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
                     <li class="nav-item dropdown open"><a class="nav-link link text-white dropdown-toggle display-4" aria-expanded="true" data-toggle="dropdown-submenu">REGISTER</a>
-                        <div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="registerMember.html" aria-expanded="false">MEMBER</a><a class="text-white dropdown-item display-4" href="registerEvent.html" aria-expanded="false">EVENT</a><a class="text-white dropdown-item display-4" href="registerCollaborator.html" aria-expanded="false">COLLABORATOR</a></div>
+                        <div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="registerMember.jsp" aria-expanded="false">MEMBER</a><a class="text-white dropdown-item display-4" href="registerEvent.jsp" aria-expanded="false">EVENT</a><a class="text-white dropdown-item display-4" href="registerCollaborator.jsp" aria-expanded="false">COLLABORATOR</a></div>
                     </li>
                     <li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white display-4" data-toggle="dropdown-submenu" aria-expanded="false">MANAGE</a>
-                        <div class="dropdown-menu"><a class="dropdown-item text-white display-4" href="memberList.html">MEMBERS</a><a class="dropdown-item text-white display-4" href="eventList.html">EVENTS</a><a class="dropdown-item text-white display-4" href="collaboratorList.html">COLLABORATORS</a></div>
+                        <div class="dropdown-menu"><a class="dropdown-item text-white display-4" href="memberList.jsp">MEMBERS</a><a class="dropdown-item text-white display-4" href="eventList.jsp">EVENTS</a><a class="dropdown-item text-white display-4" href="collaboratorList.jsp">COLLABORATORS</a></div>
                     </li>
                 </ul>
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="index.html"><span class="mbrib-lock mbr-iconfont mbr-iconfont-btn"></span>
+                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="index.jsp"><span class="mbrib-lock mbr-iconfont mbr-iconfont-btn"></span>
                     
                     LOGOUT</a></div>
             </div>
         </nav>
     </section>
-    <section class="cid-qEH6htC0aL mbr-fullscreen mbr-parallax-background" id="header2-19" data-rv-view="3101">
+    <section class="cid-qECj4TnJzd mbr-fullscreen mbr-parallax-background" id="header2-14" data-rv-view="3093">
         <div class="container align-center">
             <br />
             <br />
             <div class="form-container">
-                <h1 class="well">Register New Event</h1>
+                <h1 class="well">Register New Member</h1>
                 <hr style="border-top:1px solid gray;" />
-                <div class="col-lg-12 well" style="margin:auto; width:90%">
+                <div class="col-lg-12 well">
                     <div class="row">
                         <form>
                             <p style="color:red; float: left;">"*" Required fields</p>
@@ -77,47 +78,85 @@
                             <div class="col-sm-12">
                                 <div class="row">
                                     <div class="col-sm-6 form-group">
-                                        <label><span style="color:red;">*</span>Event Name</label>
-                                        <input type="text" placeholder="Capture The Flag" class="form-control" pattern="[0-9A-Za-z\-@ ]{2,}" title="Alphanumeric, @ and - symbols only. E.g. - Dota Competition 1v1" required="required">
+                                        <label><span style="color:red;">*</span>First Name</label>
+                                        <input type="text" placeholder="John" class="form-control" pattern="[A-Za-z\-@ ]{2,}" title="Alphabetic, @ and - symbols only. E.g. - John" required="required">
                                     </div>
                                     <div class="col-sm-6 form-group">
-                                        <label><span style="color:red;">*</span>Event Date</label>
-                                        <input type="date" class="form-control" required="required">
+                                        <label><span style="color:red;">*</span>Last Name</label>
+                                        <input type="text" placeholder="Doe" class="form-control" pattern="[A-Za-z\-@ ]{2,}" title="Alphabetic, @ and - symbols only. E.g. - Smith" required="required">
                                     </div>
                                 </div>
-                                <br/>
-                                <div class="row" style="margin:auto">
-                                    <label><span style="color:red;">*</span>Event Time: &nbsp;</label>
-                                    <br/>
-                                    <input type="time" name="startTime" value="" required="required">&nbsp;to&nbsp;
-                                    <input type="time" name="endTime" value="" required="required">
+                                <div class="row">
+                                    <div class="col-sm-6 form-group">
+                                        <label><span style="color:red;">*</span>IC Number</label>
+                                        <input type="text" placeholder="981213125523" class="form-control" pattern="\d{12}" title="Numeric only. E.g. 985564127789" required="required">
+                                    </div>
+                                    <div class="col-sm-6 form-group">
+                                        <label><span style="color:red;">*</span>Member ID</label>
+                                        <input type="text" placeholder="16SMD00990" class="form-control" pattern="^\d{2}[A-Z]{3}\d{5}$" title="E.g. 16SMD00990" required="required">
+                                    </div>
                                 </div>
-                                <br/>
-                                <div class="row" style="margin:auto">
-                                    <br />
-                                    <label><span style="color:red;">*</span>Event Location</label>
-                                    <input type="text" placeholder="Lot 1-1" class="form-control" required="required">
+                                <div class="row">
+                                    <div class="col-sm-6 form-group">
+                                        <label><span style="color:red;">*</span>Contact Number</label>
+                                        <input type="text" placeholder="0195421325" class="form-control" pattern="([0-9]|[0-9\-]){3,20}" title="Numeric and '-' symbols only. E.g. 014-8897875" required="required">
+                                    </div>
+                                    <div class="col-sm-6 form-group">
+                                        <label><span style="color:red;">*</span>Email</label>
+                                        <input type="email" placeholder="email@hotmail.com" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="E.g. - cisco@business.co.uk" required="required">
+                                    </div>
                                 </div>
-                                <br/>
+                                <div class="row">
+                                    <div class="col-sm-6 form-group">
+                                        <label><span style="color:red;">*</span>Programme Code</label>
+                                        <select name="" class="form-control" required="required">
+                                            <option disabled selected value>Select programme code</option>
+                                            <option value="president">President</option>
+                                            <option value="DIA">DIA</option>
+                                            <option value="DIA">DMK</option>
+                                            <option value="DIA">DHM</option>
+                                            <option value="DIA">DIB</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-6 form-group">
+                                        <label><span style="color:red;">*</span>Academic Year</label>
+                                        <select name="" class="form-control" required="required">
+                                            <option disabled selected value>Select academic year</option>
+                                            <option value="2016/2017">2016/2017</option>
+                                            <option value="2017/2018">2017/2018</option>
+                                            <option value="2018/2019">2018/2019</option>
+                                            <option value="2019/2020">2019/2020</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6 form-group">
+                                        <label><span style="color:red;">*</span>Gender:</label>
+                                        <br/>
+                                        <input type="radio" name="gender" value="2" required="required"> Male &nbsp;
+                                        <input type="radio" name="gender" value="1"> Female
+                                    </div>
+                                    <div class="col-sm-6 form-group">
+                                        <label><span style="color:red;">*</span>Membership Fee Status:</label>
+                                        <br/>
+                                        <input type="radio" name="memFeeStats" value="2" required="required"> Pending &nbsp;
+                                        <input type="radio" name="memFeeStats" value="1"> Paid
+                                    </div>
+                                </div>
                                 <div class="row" style="margin:auto">
-                                    <label><span style="color:red;">*</span>Event Category</label>
+                                    <label><span style="color:red;">*</span>Position</label>
                                     <select name="" class="form-control" required="required">
-                                        <option disabled selected value>Select an event category</option>
-                                        <option value="5">Competitions</option>
-                                        <option value="4">Educational Visit/Trips</option>
-                                        <option value="3">Workshops/Talks</option>
-                                        <option value="2">Event Exhibitions</option>
-                                        <option value="1">Others</option>
+                                        <option disabled selected value>Select member position</option>
+                                        <option value="5">President</option>
+                                        <option value="4">Vice President</option>
+                                        <option value="3">Secretary</option>
+                                        <option value="2">Treasurer</option>
+                                        <option value="1">Member</option>
                                     </select>
-                                </div>
-                                <br/>
-                                <div class="row" style="margin:auto">
-                                    <label>Additional Notes</label>
-                                    <textarea class="form-control" name="additionalNotes" row="20" style="height:180px;resize: none;"></textarea>
                                 </div>
                             </div>
                             <br />
-                            <div class="form-group">
+                            <div class="submit-button">
                                 <button type="submit" class="btn btn-lg btn-info">Submit</button>
                                 <button type="reset" class="btn btn-lg btn-info">Reset</button>
                             </div>
@@ -136,7 +175,7 @@
             <div class="media-container-row content text-white">
                 <div class="col-12 col-md-3">
                     <div class="media-wrap">
-                        <a href="homepage.html"><img src="assets/images/logo-2-3508x2480.jpg" alt="Mobirise" title="" media-simple="true"></a>
+                        <a href="homepage.jsp"><img src="assets/images/logo-2-3508x2480.jpg" alt="Mobirise" title="" media-simple="true"></a>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 mbr-fonts-style display-7">

@@ -39,11 +39,11 @@
             <div class="menu-logo">
                 <div class="navbar-brand">
                     <span class="navbar-logo">
-                    <a href="index.html">
+                    <a href="index.jsp">
                          <img src="assets/images/logo-1-3508x2480.jpg" title="" media-simple="true" style="height: 4.5rem;">
                     </a>
                 </span>
-                    <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="index.html">
+                    <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="index.jsp">
                         COMPUTER CLUB</a></span>
                 </div>
             </div>
@@ -76,7 +76,7 @@
             <div class="media-container-row content text-white">
                 <div class="col-12 col-md-3">
                     <div class="media-wrap">
-                        <a href="index.html"><img src="assets/images/logo-2-3508x2480.jpg" alt="Mobirise" title="" media-simple="true"></a>
+                        <a href="index.jsp"><img src="assets/images/logo-2-3508x2480.jpg" alt="Mobirise" title="" media-simple="true"></a>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 mbr-fonts-style display-7">

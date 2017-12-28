@@ -36,24 +36,24 @@
             <div class="menu-logo">
                 <div class="navbar-brand">
                     <span class="navbar-logo">
-                    <a href="homepage.html">
+                    <a href="homepage.jsp">
                          <img src="assets/images/logo-1-3508x2480.jpg" title="" media-simple="true" style="height: 4.5rem;">
                     </a>
                 </span>
-                    <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="homepage.html">
+                    <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="homepage.jsp">
                         COMPUTER CLUB</a></span>
                 </div>
             </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
                     <li class="nav-item dropdown open"><a class="nav-link link text-white dropdown-toggle display-4" aria-expanded="true" data-toggle="dropdown-submenu">REGISTER</a>
-                        <div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="registerMember.html" aria-expanded="false">MEMBER</a><a class="text-white dropdown-item display-4" href="registerEvent.html" aria-expanded="false">EVENT</a><a class="text-white dropdown-item display-4" href="registerCollaborator.html" aria-expanded="false">COLLABORATOR</a></div>
+                        <div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="registerMember.jsp" aria-expanded="false">MEMBER</a><a class="text-white dropdown-item display-4" href="registerEvent.jsp" aria-expanded="false">EVENT</a><a class="text-white dropdown-item display-4" href="registerCollaborator.jsp" aria-expanded="false">COLLABORATOR</a></div>
                     </li>
                     <li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white display-4" data-toggle="dropdown-submenu" aria-expanded="false">MANAGE</a>
-                        <div class="dropdown-menu"><a class="dropdown-item text-white display-4" href="memberList.html">MEMBERS</a><a class="dropdown-item text-white display-4" href="eventList.html">EVENTS</a><a class="dropdown-item text-white display-4" href="collaboratorList.html">COLLABORATORS</a></div>
+                        <div class="dropdown-menu"><a class="dropdown-item text-white display-4" href="memberList.jsp">MEMBERS</a><a class="dropdown-item text-white display-4" href="eventList.jsp">EVENTS</a><a class="dropdown-item text-white display-4" href="collaboratorList.jsp">COLLABORATORS</a></div>
                     </li>
                 </ul>
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="index.html"><span class="mbrib-lock mbr-iconfont mbr-iconfont-btn"></span>
+                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="index.jsp"><span class="mbrib-lock mbr-iconfont mbr-iconfont-btn"></span>
                     
                     LOGOUT</a></div>
             </div>
@@ -67,21 +67,21 @@
             <h2 class="mbr-section-title pb-3 mbr-fonts-style display-1"><br>Welcome, <%%>!<br><br></h2>
             <div class="media-container-row container" style="min-width: 740px !important">
                 <!--- CSS Overriden -->
-                <div class="card col-12 col-md-6 p-5 m-3 align-center col-lg-4" id="hover_image" onclick="window.open('memberList.html','Manage Member');">
+                <div class="card col-12 col-md-6 p-5 m-3 align-center col-lg-4" id="hover_image" onclick="window.open('memberList.jsp','Manage Member');">
                     <div class="card-img">
                         <img src="assets/images/mbr-720x1080.jpg" alt="Mobirise" title="" media-simple="true">
                     </div>
                     <h4 class="card-title py-2 mbr-fonts-style display-2">Manage<br>Members</h4>
                     <p class="mbr-text mbr-fonts-style display-7"></p>
                 </div>
-                <div class="card col-12 col-md-6 p-5 m-3 align-center col-lg-4" id="hover_image" onclick="window.open('eventList.html','Manage Events');">
+                <div class="card col-12 col-md-6 p-5 m-3 align-center col-lg-4" id="hover_image" onclick="window.open('eventList.jsp','Manage Events');">
                     <div class="card-img">
                         <img src="assets/images/jumbotron2.jpg" alt="Mobirise" media-simple="true">
                     </div>
                     <h4 class="card-title py-2 mbr-fonts-style display-2">Manage Events<br></h4>
                     <p class="mbr-text mbr-fonts-style display-7"></p>
                 </div>
-                <div class="card col-12 col-md-6 p-5 m-3 align-center col-lg-4" id="hover_image" onclick="window.open('collaboratorList.html','Manage Collaborators');">
+                <div class="card col-12 col-md-6 p-5 m-3 align-center col-lg-4" id="hover_image" onclick="window.open('collaboratorList.jsp','Manage Collaborators');">
                     <div class="card-img">
                         <img src="assets/images/mbr-2-1620x1080.jpg" alt="Mobirise" title="" media-simple="true">
                     </div>
@@ -159,7 +159,7 @@
             <div class="media-container-row content text-white">
                 <div class="col-12 col-md-3">
                     <div class="media-wrap">
-                        <a href="homepage.html"><img src="assets/images/logo-2-3508x2480.jpg" alt="Mobirise" title="" media-simple="true"></a>
+                        <a href="homepage.jsp"><img src="assets/images/logo-2-3508x2480.jpg" alt="Mobirise" title="" media-simple="true"></a>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 mbr-fonts-style display-7">
